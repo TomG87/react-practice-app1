@@ -3,10 +3,10 @@ import logo from "./assets/react.svg";
 
 export default function Header() {
   return (
-    <div>
+    <nav className="nav">
       <img src={logo} className="logo" />
-      <header className="header_1">ReactFacts</header>
-      <header className="header_2">React Course-Project 1</header>
-    </div>
+      <h3 className="header_1">ReactFacts</h3>
+      <h4 className="header_2">React Course-Project 1</h4>
+    </nav>
   );
 }

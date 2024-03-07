@@ -1,17 +1,23 @@
+.nav {
+  display:flex;
+  align-items:center;
+}
+
+
 .header_1{
-  flex:auto;
   color:aqua;
   font-size:large;
+  margin-right:auto;
 }
 
 .header_2{
-  flex:auto;
   color:white;
   font-size: large;
+  margin-left:auto;
 }
 
 .logo {
-  width:70px
+  width:70px;
 }
 
 .list {
